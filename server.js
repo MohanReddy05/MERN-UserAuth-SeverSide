@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 4000;
 // Database connection
 connectDB();
 
-const allowedOrigins = ['http://192.168.1.142:5173'];
+const allowedOrigins = ['http://localhost:5173'];
 // const corsOptions = {
 //     origin: allowedOrigins,
 //     credentials: true,
